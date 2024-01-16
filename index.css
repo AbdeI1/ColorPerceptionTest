@@ -1,0 +1,32 @@
+body {
+  background-color: #282c34;
+}
+
+.vertical-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.squares {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.square {
+  width: 20%;
+  aspect-ratio: 1;
+  background-color: blue;
+  margin: 10px;
+  border-radius: 20%;
+}
+
+.text {
+  color: white;
+  font-size: 72px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+}
